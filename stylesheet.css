@@ -1,0 +1,461 @@
+/* 
+    Document   : stylesheet
+    Created on : Jul 22, 2013, 11:07:34 PM
+    Author     : cameron
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+    overflow: scroll;
+}
+
+body {
+    background-color: black;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#take {
+    background-color: #e5f2fd;
+    border-radius: 50%;
+    position: fixed;
+    top: 55px;
+    left: 20px;
+    width: 70px;
+    height: 62px;
+    padding-top: 8px;
+    opacity: 0.9;
+    font-family: Lato;
+    font-size: 20px;
+    text-align: center;
+    font-style: normal !important;
+    text-shadow: 0px 0px !important;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#back {
+    position: fixed;
+    top: 130px;
+    left: 20px;
+    font-family: Lato;
+    font-style: normal !important;
+    text-shadow: 0px 0px !important;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#take:active{
+    opacity: 0.4;
+}
+
+.ui-body-c, .ui-overlay-c {
+    background: black;
+}
+
+#options {
+    position: fixed;
+    height: 474px;
+}
+
+#sliders .ui-block-b {
+    width: 84px;
+}
+
+#black {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    z-index: 12;
+}
+
+#white {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    z-index: 10001;
+}
+
+label {
+    color: white;
+    cursor: default;
+}
+
+h1 {
+    position: fixed;
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+    font-family: Lato;
+    font-style: normal !important;
+    text-shadow: 0px 0px !important;
+    font-size: 60px;
+    font-weight: 300;
+    margin-top: -1px;
+    cursor: default;
+    z-index: 11;
+}
+
+h2 {
+    position: fixed;
+    right: 25px;
+    top: 45px;
+    font-family: Lato;
+    font-style: normal !important;
+    text-shadow: 0px 0px !important;
+    font-size: 30px;
+    color: rgba(255, 47, 0, 0.2);
+    cursor: pointer;
+    z-index: 10;
+}
+
+h3 {
+    position: fixed;
+    right: 25px;
+    top: 80px;
+    font-family: Lato;
+    font-style: normal !important;
+    text-shadow: 0px 0px !important;
+    font-size: 25px;
+    font-weight: 300;
+    color: rgba(255, 47, 0, 0.3);
+    cursor: default;
+    z-index: 10;
+    cursor: pointer;
+}
+
+h3:active:hover {
+    color: #e5f2fd;
+}
+
+h3:hover {
+    color: rgb(255, 47, 0);
+}
+
+#preview {
+    position: fixed;
+    opacity: 0;
+    border-radius: 50%;
+    z-index: -1;
+    width: 400px;
+    height: 400px;
+}
+
+#prev {
+    color: white;
+    position: fixed;
+    font-size: 100px;
+    font-family: Lato;
+    font-style: normal !important;
+    text-shadow: 0px 0px !important;
+    font-weight: 300;
+    right: 50%;
+    margin-right: 275px;
+    top: 150px;
+    z-index: 1000;
+    cursor: pointer;
+    width: 0px;
+    height: 0px;
+}
+
+#next {
+    color: white;
+    position: fixed;
+    font-size: 100px;
+    font-family: Lato;
+    font-style: normal !important;
+    text-shadow: 0px 0px !important;
+    font-weight: 300;
+    left: 50%;
+    margin-left: 225px;
+    top: 150px;
+    z-index: 1000;
+    cursor: pointer;
+    width: 0px;
+    height: 0px;
+}
+
+#background {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: auto;
+}
+
+.nums {
+    position: absolute;
+    background-color: rgba(255, 47, 0, 0.7);
+    border-radius: 50%;
+    border: 1px solid #fe9a84;
+    font-family: Lato;
+    font-style: normal !important;
+    text-shadow: 0px 0px !important;
+    color: black;
+}
+
+.hide {
+    background-color: black;
+    color: rgba(255, 47, 0, 0.7);
+    opacity: 0.4;
+    z-index: -1;
+    cursor: default;
+}
+
+.show {
+    cursor: pointer;
+}
+
+.show:hover {
+    color: #e5f2fd;
+}
+
+.show:active:hover {
+    background-color: rgb(255, 47, 0);
+    z-index: 1000;
+}
+
+#container {
+    position: fixed;
+    z-index: 1;
+}
+
+#n1 {left: 50.6%; top: 47.3%;}
+#n2 {left: 55.6%; top: 47%}
+#n3 {left: 52.1%; top: 42.5%}
+#n4 {left: 46.6%; top: 44.3%}
+#n5 {left: 46.2%; top: 50.1%}
+#n6 {left: 51.3%; top: 52%}
+#n7 {left: 60.2%; top: 47.4%}
+#n8 {left: 56.5%; top: 42.2%}
+#n9 {left: 52.7%; top: 37.7%}
+#n10 {left: 45.9%; top: 39.3%}
+#n11 {left: 40.3%; top: 41.3%}
+#n12 {left: 40%; top: 47%}
+#n13 {left: 40.3%; top: 53.3%}
+#n14 {left: 45.86%; top: 55.03%}
+#n15 {left: 51.70%; top: 56.70%}
+#n16 {left: 55.27%; top: 52.20%}
+#n17 {left: 64%; top: 47%}
+#n18 {left: 60.4%; top: 42.2%}
+#n19 {left: 57.28%; top: 37.44%}
+#n20 {left: 53.2%; top: 32.8%}
+#n21 {left: 47.3%; top: 34.3%}
+#n22 {left: 41.8%; top: 36.1%}
+#n23 {left: 36%; top: 38.2%}
+#n24 {left: 35.8%; top: 44.2%}
+#n25 {left: 35.7%; top: 50.1%}
+#n26 {left: 36.3%; top: 56.1%}
+#n27 {left: 41.6%; top: 58.4%}
+#n28 {left: 47.3%; top: 60%}
+#n29 {left: 53.2%; top: 61.5%}
+#n30 {left: 57.02%; top: 56.99%}
+#n31 {left: 60.4%; top: 52.4%}
+#n32 {left: 68.7%; top: 47%}
+#n33 {left: 65.7%; top: 42.2%}
+#n34 {left: 62.4%; top: 36.9%}
+#n35 {left: 58.6%; top: 32.3%}
+#n36 {left: 54.7%; top: 28.2%}
+#n37 {left: 48.8%; top: 29.3%}
+#n38 {left: 43%; top: 30.9%}
+#n39 {left: 37.5%; top: 32.8%}
+#n40 {left: 32%; top: 35.5%}
+#n41 {left: 31.5%; top: 41.2%}
+#n42 {left: 31%; top: 47.4%}
+#n43 {left: 31.5%; top: 53%}
+#n44 {left: 32.26%; top: 59.34%}
+#n45 {left: 37.6%; top: 61.5%}
+#n46 {left: 43.1%; top: 63.8%}
+#n47 {left: 48.8%; top: 65.2%}
+#n48 {left: 54.7%; top: 66.3%}
+#n49 {left: 58.7%; top: 62.1%}
+#n50 {left: 62.4%; top: 57.2%}
+#n51 {left: 65.8%; top: 52.4%}
+#n52 {left: 73.8%; top: 47.1%}
+#n53 {left: 71%; top: 42%}
+#n54 {left: 68%; top: 36.6%}
+#n55 {left: 64.5%; top: 32.1%}
+#n56 {left: 60.7%; top: 27.5%}
+#n57 {left: 56.2%; top: 23.2%}
+#n58 {left: 50.4%; top: 24.2%}
+#n59 {left: 44.3%; top: 25.7%}
+#n60 {left: 38.8%; top: 27.5%}
+#n61 {left: 33.2%; top: 29.5%}
+#n62 {left: 28%; top: 32.6%}
+#n63 {left: 27%; top: 38.3%}
+#n64 {left: 26.5%; top: 44.3%}
+#n65 {left: 26.5%; top: 50.1%}
+#n66 {left: 27%; top: 56.1%}
+#n67 {left: 28%; top: 62%}
+#n68 {left: 33.3%; top: 64.6%}
+#n69 {left: 38.8%; top: 67.1%}
+#n70 {left: 44.6%; top: 68.8%}
+#n71 {left: 50.4%; top: 70.2%}
+#n72 {left: 55.8%; top: 71.4%}
+#n73 {left: 60.4%; top: 66.9%}
+#n74 {left: 64.5%; top: 62.4%}
+#n75 {left: 68.1%; top: 57.6%}
+#n76 {left: 71%; top: 52.5%}
+#n77 {left: 78%; top: 47.1%}
+#n78 {left: 75.6%; top: 42%}
+#n79 {left: 72.7%; top: 36.3%}
+#n80 {left: 69.5%; top: 31.6%}
+#n81 {left: 66%; top: 27%}
+#n82 {left: 62%; top: 22.48%}
+#n83 {left: 57%; top: 18.48%}
+#n84 {left: 51.6%; top: 18.7%}
+#n85 {left: 45.86%; top: 20.23%}
+#n86 {left: 40.37%; top: 21.90%}
+#n87 {left: 34.61%; top: 23.85%}
+#n88 {left: 29.03%; top: 26.49%}
+#n89 {left: 23.2%; top: 29.52%}
+#n90 {left: 22%; top: 35.19%}
+#n91 {left: 21.4%; top: 41.45%}
+#n92 {left: 20.7%; top: 47.12%}
+#n93 {left: 21%; top: 53.08%}
+#n94 {left: 22%; top: 59.24%}
+#n95 {left: 22.8%; top: 65.2%}
+#n96 {left: 28.95%; top: 67.64%}
+#n97 {left: 34.52%; top: 70.58%}
+#n98 {left: 40.10%; top: 72.43%}
+#n99 {left: 45%; top: 74.19%}
+#n100 {left: 49.69%; top: 75.37%}
+#n101 {left: 55.71%; top: 75.86%}
+#n102 {left: 60.86%; top: 71.95%}
+#n103 {left: 64.8%; top: 67.35%}
+#n104 {left: 68.7%; top: 62.95%}
+#n105 {left: 71.70%; top: 58.16%}
+#n106 {left: 74.46%; top: 52.69%}
+#n107 {left: 81.69%; top: 47.02%}
+#n108 {left: 79.69%; top: 41.74%}
+#n109 {left: 76.90%; top: 36.36%}
+#n110 {left: 73.93%; top: 31.28%}
+#n111 {left: 70.44%; top: 26.39%}
+#n112 {left: 66.35%; top: 21.60%}
+#n113 {left: 61.99%; top: 17.60%}
+#n114 {left: 57.7%; top: 13.78%}
+#n115 {left: 51.44%; top: 13.98%}
+#n116 {left: 45.16%; top: 14.86%}
+#n117 {left: 39.58%; top: 16.23%}
+#n118 {left: 33.83%; top: 18.28%}
+#n119 {left: 27.99%; top: 20.53%}
+#n120 {left: 22.76%; top: 23.36%}
+#n121 {left: 17.70%; top: 26.59%}
+#n122 {left: 16.5%; top: 32.06%}
+#n123 {left: 15.7%; top: 38.32%}
+#n124 {left: 14.65%; top: 44.18%}
+#n125 {left: 14.5%; top: 50.3%}
+#n126 {left: 15.5%; top: 56.11%}
+#n127 {left: 16.3%; top: 62.07%}
+#n128 {left: 17.70%; top: 68.04%}
+#n129 {left: 22.76%; top: 71.07%}
+#n130 {left: 28.25%; top: 73.90%}
+#n131 {left: 33.57%; top: 76.15%}
+#n132 {left: 39.23%; top: 78.10%}
+#n133 {left: 45.42%; top: 79.28%}
+#n134 {left: 51.18%; top: 80.45%}
+#n135 {left: 57.54%; top: 80.65%}
+#n136 {left: 61.81%; top: 77.03%}
+#n137 {left: 66.35%; top: 72.73%}
+#n138 {left: 70.18%; top: 68.23%}
+#n139 {left: 73.93%; top: 63.44%}
+#n140 {left: 76.81%; top: 58.16%}
+#n141 {left: 79.60%; top: 52.79%}
+#n142 {left: 86.92%; top: 47.02%}
+#n143 {left: 84.92%; top: 41.74%}
+#n144 {left: 82.39%; top: 36.07%}
+#n145 {left: 79.42%; top: 30.99%}
+#n146 {left: 76.11%; top: 25.61%}
+#n147 {left: 72.36%; top: 21.11%}
+#n148 {left: 68.35%; top: 16.52%}
+#n149 {left: 63.82%; top: 12.61%}
+#n150 {left: 58.2%; top: 8.6%}
+#n151 {left: 52.3%; top: 9.1%}
+#n152 {left: 46.56%; top: 9.78%}
+#n153 {left: 40.89%; top: 10.95%}
+#n154 {left: 34.79%; top: 12.32%}
+#n155 {left: 29.29%; top: 14.57%}
+#n156 {left: 24.06%; top: 17.20%}
+#n157 {left: 18.83%; top: 20.23%}
+#n158 {left: 13.60%; top: 23.56%}
+#n159 {left: 11.2%; top: 29%}
+#n160 {left: 10.37%; top: 35.19%}
+#n161 {left: 9.5%; top: 41.06%}
+#n162 {left: 9%; top: 47.31%}
+#n163 {left: 9.2%; top: 53.18%}
+#n164 {left: 10.37%; top: 59.24%}
+#n165 {left: 11.86%; top: 65.20%}
+#n166 {left: 12.8%; top: 71%}
+#n167 {left: 18.48%; top: 74.19%}
+#n168 {left: 24.06%; top: 77.32%}
+#n169 {left: 29.21%; top: 79.86%}
+#n170 {left: 35.14%; top: 82.01%}
+#n171 {left: 40.89%; top: 83.48%}
+#n172 {left: 46.73%; top: 84.56%}
+#n173 {left: 52.4%; top: 85.5%}
+#n174 {left: 58.8%; top: 85%}
+#n175 {left: 63.56%; top: 81.82%}
+#n176 {left: 68.2%; top: 78.7%}
+#n177 {left: 72.28%; top: 74.5%}
+#n178 {left: 76.3%; top: 69.5%}
+#n179 {left: 79.9%; top: 64.3%}
+#n180 {left: 82.39%; top: 58.46%}
+#n181 {left: 84.92%; top: 52.98%}
+#n182 {left: 92.8%; top: 47.12%}
+#n183 {left: 90.76%; top: 41.35%}
+#n184 {left: 88.49%; top: 35.78%}
+#n185 {left: 85.96%; top: 30.60%}
+#n186 {left: 82.20%; top: 25.32%}
+#n187 {left: 79%; top: 20.53%}
+#n188 {left: 75%; top: 16%}
+#n189 {left: 70.1%; top: 11.3%}
+#n190 {left: 64.4%; top: 7.5%}
+#n191 {left: 58.50%; top: 4%}
+#n192 {left: 52.8%; top: 4.1%}
+#n193 {left: 46.73%; top: 4.7%}
+#n194 {left: 40.89%; top: 5.87%}
+#n195 {left: 34.79%; top: 7.23%}
+#n196 {left: 29.29%; top: 8.99%}
+#n197 {left: 23.98%; top: 11.44%}
+#n198 {left: 18.40%; top: 14.27%}
+#n199 {left: 13.69%; top: 17.40%}
+#n200 {left: 9%; top: 21.8%}
+#n201 {left: 6.63%; top: 26.69%}
+#n202 {left: 5.32%; top: 32.65%}
+#n203 {left: 4.40%; top: 38.32%}
+#n204 {left: 3.57%; top: 44.28%}
+#n205 {left: 3.31%; top: 50.15%}
+#n206 {left: 4.18%; top: 55.82%}
+#n207 {left: 5.7%; top: 62.07%}
+#n208 {left: 6.80%; top: 67.35%}
+#n209 {left: 8.3%; top: 73.3%}
+#n210 {left: 13.69%; top: 77.03%}
+#n211 {left: 18.74%; top: 80.06%}
+#n212 {left: 23.80%; top: 82.89%}
+#n213 {left: 29.21%; top: 85.3%}
+#n214 {left: 35.3%; top: 87.5%}
+#n215 {left: 41.3%; top: 89%}
+#n216 {left: 47.7%; top: 90.1%}
+#n217 {left: 54.3%; top: 90.7%}
+#n218 {left: 61%; top: 88.86%}
+#n219 {left: 66.52%; top: 86%}
+#n220 {left: 71.23%; top: 82.01%}
+#n221 {left: 75.59%; top: 78.10%}
+#n222 {left: 79%; top: 73.9%}
+#n223 {left: 82.9%; top: 69.11%}
+#n224 {left: 86.05%; top: 64.03%}
+#n225 {left: 88.75%; top: 58.36%}
+#n226 {left: 90.67%; top: 52.98%}
